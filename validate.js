@@ -1,18 +1,18 @@
+function isNum(value){
+	return !isNaN(value)
+}
 function checkNID() {
   let nid = (document.getElementById("nid").value).trim();
   if (nid.length != 13) {
     return false;
+	if (length==13 & isNum(nid)){
+		return true;
+	if (length<=13 & isNaN(ind))
+		return false;
+	}
   } else {
 	return true;
-  }
-}
-
-function checkTicketNo() {
-  let num = (document.getElementById("ticknum").value).trim();
-  if (isNaN(num)) {
-    return false;
-  } else {
-	return true;
+	return false;
   }
 }
 
